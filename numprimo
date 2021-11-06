@@ -1,0 +1,12 @@
+nprimo = int(input("Indique um numero:"))
+cont = 2
+primo = True
+while (cont<nprimo):
+    if nprimo%cont==0:
+        primo = False
+    cont+=1
+if primo == True:
+    print("É primo")
+else:
+    print("Não é primo")
+        
